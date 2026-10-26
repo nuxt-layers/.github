@@ -1,12 +1,22 @@
-## Hi there 👋
+# Nuxt Layers
 
-<!--
+Composable, reusable Nuxt layers for building secure, maintainable web applications.
 
-**Here are some ideas to get you started:**
+## Organisational Layers
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+| Repository | Purpose |
+|---|---|
+| **platform-architecture** | Runtime-configurable theming and design-token management for Nuxt 4 applications. |
+
+## Platform Layers
+
+| Repository | Purpose |
+|---|---|
+| **theme-manager** | Runtime-configurable theming and design-token management for Nuxt 4 applications. |
+| **authentication** | Authentication layer for Nuxt applications. |
+
+## Architecture
+
+The platform is designed as a collection of independently reusable Nuxt layers with explicit interfaces and clear separation of concerns.
+
+See **platform-architecture** for the architecture, conventions and governance used across the organisation.
